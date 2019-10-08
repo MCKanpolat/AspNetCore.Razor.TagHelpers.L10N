@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.Razor.TagHelpers.L10N", "src\AspNetCore.Razor.TagHelpers.L10N\AspNetCore.Razor.TagHelpers.L10N.csproj", "{C447EEA3-B88B-4762-BA9E-84E2A2387430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction", "src\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction.csproj", "{71DEB1B0-0559-43F9-BEBD-592C20348A27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.EntityFramework", "src\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.EntityFramework\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.EntityFramework.csproj", "{00662EBA-CC23-4B8A-878A-CBDAA53840AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PersistenceProviders", "PersistenceProviders", "{F55C5D56-156B-4C91-B92A-0B62F10232F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C447EEA3-B88B-4762-BA9E-84E2A2387430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C447EEA3-B88B-4762-BA9E-84E2A2387430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C447EEA3-B88B-4762-BA9E-84E2A2387430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C447EEA3-B88B-4762-BA9E-84E2A2387430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71DEB1B0-0559-43F9-BEBD-592C20348A27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71DEB1B0-0559-43F9-BEBD-592C20348A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71DEB1B0-0559-43F9-BEBD-592C20348A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71DEB1B0-0559-43F9-BEBD-592C20348A27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00662EBA-CC23-4B8A-878A-CBDAA53840AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00662EBA-CC23-4B8A-878A-CBDAA53840AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00662EBA-CC23-4B8A-878A-CBDAA53840AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00662EBA-CC23-4B8A-878A-CBDAA53840AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00662EBA-CC23-4B8A-878A-CBDAA53840AF} = {F55C5D56-156B-4C91-B92A-0B62F10232F9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D481DF30-FE33-4DA1-83D3-2DC6D0F9EDE7}
+	EndGlobalSection
+EndGlobal
