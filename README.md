@@ -1,0 +1,1 @@
+# AspNetCore.Razor.TagHelpers.L10N
