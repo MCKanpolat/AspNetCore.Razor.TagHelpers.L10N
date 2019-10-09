@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction.csproj" />
+    <ProjectReference Include="..\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction\AspNetCore.Razor.TagHelpers.L10N.Abstraction.csproj" />
   </ItemGroup>
 
 </Project>

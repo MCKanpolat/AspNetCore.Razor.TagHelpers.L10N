@@ -5,15 +5,15 @@ VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.Razor.TagHelpers.L10N", "src\AspNetCore.Razor.TagHelpers.L10N\AspNetCore.Razor.TagHelpers.L10N.csproj", "{C447EEA3-B88B-4762-BA9E-84E2A2387430}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction", "src\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction.csproj", "{71DEB1B0-0559-43F9-BEBD-592C20348A27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.Razor.TagHelpers.L10N.Abstraction", "src\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction\AspNetCore.Razor.TagHelpers.L10N.Abstraction.csproj", "{71DEB1B0-0559-43F9-BEBD-592C20348A27}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.EntityFramework", "src\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.EntityFramework\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.EntityFramework.csproj", "{00662EBA-CC23-4B8A-878A-CBDAA53840AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.Razor.TagHelpers.L10N.EntityFramework", "src\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.EntityFramework\AspNetCore.Razor.TagHelpers.L10N.EntityFramework.csproj", "{00662EBA-CC23-4B8A-878A-CBDAA53840AF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PersistenceProviders", "PersistenceProviders", "{F55C5D56-156B-4C91-B92A-0B62F10232F9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApp", "src\SampleWebApp\SampleWebApp.csproj", "{81FA2254-2DBA-499F-9F37-D831735C4FEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Custom", "src\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Memory\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Custom.csproj", "{5213B531-8566-483A-86D5-35B66D01BAA7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.Razor.TagHelpers.L10N.Custom", "src\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Memory\AspNetCore.Razor.TagHelpers.L10N.Custom.csproj", "{5213B531-8566-483A-86D5-35B66D01BAA7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{ABB1C522-8FD0-409A-B8B6-1E7FF53DF567}"
 EndProject

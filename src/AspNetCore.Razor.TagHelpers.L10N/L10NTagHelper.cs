@@ -1,4 +1,4 @@
-﻿using AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction;
+﻿using AspNetCore.Razor.TagHelpers.L10N.Abstraction;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using Microsoft.Extensions.Options;
 using System;

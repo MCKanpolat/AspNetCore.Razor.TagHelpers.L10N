@@ -1,4 +1,4 @@
-﻿namespace AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.EntityFramework
+﻿namespace AspNetCore.Razor.TagHelpers.L10N.EntityFramework
 {
     public class L10NDbConfiguration
     {

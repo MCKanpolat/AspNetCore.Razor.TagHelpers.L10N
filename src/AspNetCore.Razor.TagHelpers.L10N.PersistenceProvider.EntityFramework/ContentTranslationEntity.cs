@@ -1,6 +1,6 @@
-﻿using AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction;
+﻿using AspNetCore.Razor.TagHelpers.L10N.Abstraction;
 
-namespace AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.EntityFramework
+namespace AspNetCore.Razor.TagHelpers.L10N.EntityFramework
 {
     public class ContentTranslationEntity : ContentTranslation
     {

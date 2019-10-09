@@ -1,5 +1,5 @@
 ﻿using AspNetCore.Razor.TagHelpers.L10N;
-using AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction;
+using AspNetCore.Razor.TagHelpers.L10N.Abstraction;
 
 namespace Microsoft.Extensions.DependencyInjection
 {

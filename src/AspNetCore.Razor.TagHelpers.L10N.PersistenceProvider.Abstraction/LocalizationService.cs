@@ -3,7 +3,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction
+namespace AspNetCore.Razor.TagHelpers.L10N.Abstraction
 {
     public class LocalizationService : ILocalizationService
     {

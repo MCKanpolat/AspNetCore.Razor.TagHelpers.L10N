@@ -1,8 +1,8 @@
-﻿using AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction;
+﻿using AspNetCore.Razor.TagHelpers.L10N.Abstraction;
 using Microsoft.EntityFrameworkCore;
 using System;
 
-namespace AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.EntityFramework
+namespace AspNetCore.Razor.TagHelpers.L10N.EntityFramework
 {
     public class LocalizationDbContext : DbContext
     {

@@ -1,11 +1,10 @@
-﻿using AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction;
+﻿using AspNetCore.Razor.TagHelpers.L10N.Abstraction;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Custom
+namespace AspNetCore.Razor.TagHelpers.L10N.Custom
 {
     public class MemoryPersistenceProvider : PersistenceProviderBase
     {

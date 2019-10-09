@@ -1,4 +1,4 @@
-﻿namespace AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction
+﻿namespace AspNetCore.Razor.TagHelpers.L10N.Abstraction
 {
     public class ContentTranslation
     {

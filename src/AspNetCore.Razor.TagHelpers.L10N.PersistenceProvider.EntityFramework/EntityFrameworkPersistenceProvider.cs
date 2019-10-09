@@ -1,9 +1,9 @@
-﻿using AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction;
+﻿using AspNetCore.Razor.TagHelpers.L10N.Abstraction;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Threading.Tasks;
 
-namespace AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.EntityFramework
+namespace AspNetCore.Razor.TagHelpers.L10N.EntityFramework
 {
     public class EntityFrameworkPersistenceProvider : PersistenceProviderBase
     {

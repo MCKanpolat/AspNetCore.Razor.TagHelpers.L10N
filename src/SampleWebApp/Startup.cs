@@ -1,4 +1,4 @@
-using AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Custom;
+using AspNetCore.Razor.TagHelpers.L10N.Custom;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
