@@ -1,8 +1,6 @@
 ﻿using AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction;
 using Microsoft.EntityFrameworkCore;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.EntityFramework
 {

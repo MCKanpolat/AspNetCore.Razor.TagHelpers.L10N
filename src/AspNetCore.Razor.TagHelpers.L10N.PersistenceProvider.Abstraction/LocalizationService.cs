@@ -1,6 +1,5 @@
 ﻿using Microsoft.Extensions.Options;
 using System;
-using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -18,9 +17,9 @@ namespace AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction
             this.configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
         }
 
-        public async Task<ContentTranslation> GetContentTranslationAsync(string cultureInfo, string key, string defaultContent = null)
+        public async ValueTask<ContentTranslation> GetContentTranslationAsync(string cultureInfo, string key, string defaultContent = null)
         {
-            var contentTranslation = await persistenceProvider.FindOneAsync(w => w.Key == key && w.CultureInfo == cultureInfo);
+            var contentTranslation = await persistenceProvider.FindOneAsync(cultureInfo, key);
             if (contentTranslation == null && configuration.Value.AutoInsertWhenNotFound)
             {
                 await semaphore.WaitAsync();
@@ -36,11 +35,6 @@ namespace AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction
                 }
             }
             return contentTranslation;
-        }
-
-        public async Task<IEnumerable<ContentTranslation>> GetContentTranslationsAsync()
-        {
-            return await persistenceProvider.All();
         }
     }
 }

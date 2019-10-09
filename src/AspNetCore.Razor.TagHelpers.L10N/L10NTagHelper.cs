@@ -37,14 +37,13 @@ namespace AspNetCore.Razor.TagHelpers.L10N
 
         private void SetContent(string currentCulture, ContentTranslation contentTranslation, TagHelperOutput output)
         {
-            var content = new DefaultTagHelperContent();
             if (contentTranslation != null)
             {
-                content.SetHtmlContent(contentTranslation.Content);
+                output.Content.SetHtmlContent(contentTranslation.Content);
             }
             else
             {
-                content.SetHtmlContent(l10NConfiguration.Value.ContentNotFoundText?.Replace("{Culture}", currentCulture).Replace("{Key}", Key));
+                output.Content.SetHtmlContent(l10NConfiguration.Value.ContentNotFoundText?.Replace("{Culture}", currentCulture).Replace("{Key}", Key));
             }
             output.TagName = !string.IsNullOrWhiteSpace(SurroundTag) ? SurroundTag : null;
         }

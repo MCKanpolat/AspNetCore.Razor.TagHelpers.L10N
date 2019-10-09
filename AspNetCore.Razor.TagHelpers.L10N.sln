@@ -5,11 +5,17 @@ VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.Razor.TagHelpers.L10N", "src\AspNetCore.Razor.TagHelpers.L10N\AspNetCore.Razor.TagHelpers.L10N.csproj", "{C447EEA3-B88B-4762-BA9E-84E2A2387430}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction", "src\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction.csproj", "{71DEB1B0-0559-43F9-BEBD-592C20348A27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction", "src\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction.csproj", "{71DEB1B0-0559-43F9-BEBD-592C20348A27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.EntityFramework", "src\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.EntityFramework\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.EntityFramework.csproj", "{00662EBA-CC23-4B8A-878A-CBDAA53840AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.EntityFramework", "src\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.EntityFramework\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.EntityFramework.csproj", "{00662EBA-CC23-4B8A-878A-CBDAA53840AF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PersistenceProviders", "PersistenceProviders", "{F55C5D56-156B-4C91-B92A-0B62F10232F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApp", "src\SampleWebApp\SampleWebApp.csproj", "{81FA2254-2DBA-499F-9F37-D831735C4FEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Custom", "src\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Memory\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Custom.csproj", "{5213B531-8566-483A-86D5-35B66D01BAA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{ABB1C522-8FD0-409A-B8B6-1E7FF53DF567}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,12 +35,22 @@ Global
 		{00662EBA-CC23-4B8A-878A-CBDAA53840AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00662EBA-CC23-4B8A-878A-CBDAA53840AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00662EBA-CC23-4B8A-878A-CBDAA53840AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81FA2254-2DBA-499F-9F37-D831735C4FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81FA2254-2DBA-499F-9F37-D831735C4FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81FA2254-2DBA-499F-9F37-D831735C4FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81FA2254-2DBA-499F-9F37-D831735C4FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5213B531-8566-483A-86D5-35B66D01BAA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5213B531-8566-483A-86D5-35B66D01BAA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5213B531-8566-483A-86D5-35B66D01BAA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5213B531-8566-483A-86D5-35B66D01BAA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{00662EBA-CC23-4B8A-878A-CBDAA53840AF} = {F55C5D56-156B-4C91-B92A-0B62F10232F9}
+		{81FA2254-2DBA-499F-9F37-D831735C4FEE} = {ABB1C522-8FD0-409A-B8B6-1E7FF53DF567}
+		{5213B531-8566-483A-86D5-35B66D01BAA7} = {ABB1C522-8FD0-409A-B8B6-1E7FF53DF567}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D481DF30-FE33-4DA1-83D3-2DC6D0F9EDE7}

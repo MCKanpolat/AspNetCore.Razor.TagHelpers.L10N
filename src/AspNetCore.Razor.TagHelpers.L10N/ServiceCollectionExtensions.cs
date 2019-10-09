@@ -1,9 +1,5 @@
 ﻿using AspNetCore.Razor.TagHelpers.L10N;
 using AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Abstraction;
-using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Microsoft.Extensions.DependencyInjection
 {
@@ -12,14 +8,14 @@ namespace Microsoft.Extensions.DependencyInjection
         public static IServiceCollection AddL10Core(this IServiceCollection services)
         {
             services.AddSingleton<ILocalizationService, LocalizationService>();
+            services.AddSingleton<ILocalizationServiceCultureAccessor, DefaultLocalizationServiceCultureAccessor>();
             return services;
         }
 
-        public static IServiceCollection AddL10NWithDefaults(this IServiceCollection services)
+        public static IServiceCollection AddL10N<T>(this IServiceCollection services) where T : PersistenceProviderBase
         {
             services.AddL10Core();
-            services.AddSingleton<ILocalizationServiceCultureAccessor, DefaultLocalizationServiceCultureAccessor>();
-
+            services.AddSingleton<PersistenceProviderBase, T>();
             return services;
         }
     }

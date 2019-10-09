@@ -3,6 +3,6 @@
     public class L10NDbConfiguration
     {
         public string TableName { get; set; } = "ContentTranslation";
-        public string Schema { get; set; } = null;
+        public string Schema { get; set; }
     }
 }

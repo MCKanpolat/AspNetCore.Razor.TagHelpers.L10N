@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Memory\AspNetCore.Razor.TagHelpers.L10N.PersistenceProvider.Custom.csproj" />
+    <ProjectReference Include="..\AspNetCore.Razor.TagHelpers.L10N\AspNetCore.Razor.TagHelpers.L10N.csproj" />
+  </ItemGroup>
+
+</Project>
