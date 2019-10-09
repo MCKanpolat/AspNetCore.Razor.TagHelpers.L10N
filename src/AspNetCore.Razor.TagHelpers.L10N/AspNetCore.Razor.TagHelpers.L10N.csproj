@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Authors>MCKanpolat</Authors>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl></PackageProjectUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/MCKanpolat/AspNetCore.Razor.TagHelpers.L10N.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
